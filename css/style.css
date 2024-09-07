@@ -169,4 +169,100 @@ p {
     border-radius: 8px;
 }
 
+/*============ CARDS SECTION ============*/
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.card {
+    width: 22%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding: 15px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #6c6c6c;
+    margin-top: 10px;
+}
+
+/*============ CONTACT SECTION ============*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.contact-left {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-right p {
+    font-size: 1.2rem;
+    color: #6c6c6c;
+    margin: 10px 0;
+}
+
+.contact-right i {
+    color: #1070c9;
+    margin-right: 10px;
+}
+
+/*============ FOOTER ============*/
+
+footer {
+    background-color: #185083;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #d2ab34;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
 
